@@ -13,3 +13,39 @@
 12 silly idealTree buildDeps
 13 silly fetch manifest playwright@1.49.1
 14 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/playwright 466ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/playwright set size:undefined disposed:false
+17 silly placeDep ROOT playwright@1.49.1 OK for: gpt-crawler@1.0.0 want: 1.49.1
+18 silly fetch manifest playwright-core@1.49.1
+19 silly packumentCache full:https://registry.npmjs.org/playwright-core cache-miss
+20 silly fetch manifest fsevents@2.3.2
+21 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/fsevents 101ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+24 http fetch GET 200 https://registry.npmjs.org/playwright-core 341ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/playwright-core set size:undefined disposed:false
+26 silly placeDep ROOT fsevents@2.3.2 OK for: playwright@1.49.1 want: 2.3.2
+27 silly placeDep ROOT playwright-core@1.49.1 OK for: playwright@1.49.1 want: 1.49.1
+28 silly reify moves {}
+29 silly audit bulk request {
+29 silly audit   playwright: [ '1.49.1' ],
+29 silly audit   fsevents: [ '2.3.2' ],
+29 silly audit   'playwright-core': [ '1.49.1' ]
+29 silly audit }
+30 verbose reify failed optional dependency /home/user/node_modules/fsevents
+31 silly reify mark deleted [ '/home/user/node_modules/fsevents' ]
+32 silly tarball no local data for playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.49.1.tgz. Extracting by manifest.
+33 silly tarball no local data for playwright@https://registry.npmjs.org/playwright/-/playwright-1.49.1.tgz. Extracting by manifest.
+34 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 112ms
+35 silly audit report {}
+36 http fetch GET 200 https://registry.npmjs.org/playwright/-/playwright-1.49.1.tgz 264ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/playwright-core/-/playwright-core-1.49.1.tgz 434ms (cache miss)
+38 silly ADD node_modules/playwright-core
+39 silly ADD
+40 silly ADD node_modules/playwright
+41 verbose cwd /home/user
+42 verbose os Linux 6.1.102
+43 verbose node v20.18.0
+44 verbose npm  v10.8.2
+45 verbose exit 0
+46 info ok
