@@ -1,0 +1,10 @@
+{
+  "name": "gpt-crawler",
+  "version": "1.0.0",
+  "dependencies": {
+    "playwright": "1.49.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
